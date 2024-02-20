@@ -4,102 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 
 <body class="bg-black">
+    <div class=" bg-image container-fluid bg-transparet" >
+        <div class="container bg-transparent ">
+            <nav class="navbar navbar-expand-xl justify-content-between bg-transparent"> 
+                    <a class="navbar-brand" href="">
+                        <img src="logo.png" width="100px" alt="logo">
+                    </a>
+                <div class="container-fluid">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <span class="container-fluid">
+                        <a  type="button" href="#" class="btn btn-outline-warning me-3 btn-sm">Log in</a>
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="container-fluid">
+                            <a  type="button" href="#" class="btn btn-outline-warning active text-black me-5 btn-sm">Sign up</a>
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="hero my-5">
+            <div class="container-lg">
+                <div class="row justify-content-center align-items-center d-flex">
+                    <div class="co-md-3 text-center text-md-start">
+                        <h1>
+                            <div class="display-2 text-white fw-bold">Start your day</div>
+                            <div class="display-3 text-white fw-bold">with a black coffee</div>
+                        </h1>
+                        <p class="lead display-7 my-4 text-white">choose and taste delicious coffee from <br> the best beans</p>
+                        <a href="#" class="btn btn-outline-warning active me-5 text-black btn-lg">Order now</a>
+                        <a href="#" class="btn btn-outline-warning me-3 text-white btn-lg">Learn About Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container border rounded border-warning my-5 w-50">       
+            <h1 class="text-center display-5 text-white fw-bold ">Popular Now</h1>
+        <div id="carouselExample" class="carousel slide container my-5 " data-bs-slide="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="card mb-3 bg-dark" style="max-width: 540px; min-height: 150px;">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="/static/bgcc.jpg" alt="Americano" class="img-fluid rounded-circle my-3 border border-warning border-3 border-opacity-50"/>
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-white fs-4">Americano Coffee</h5>
+                                          <p class="card-text text-white">
+                                            Fresh roasted coffee beans.
+                                          </p>
+                                          <p class="card-text"><small class="text-white fw-bold fs-5">$2.25</small></p>
+                                          <span><a href="1.html" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></a></span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>  
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="card mb-3 bg-dark" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="/static/espresso.jpg" alt="espresso" class="img-fluid rounded-circle my-3 border border-warning border-3  border-opacity-50"/>
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title fw-bold text-white fs-4">Espresso Coffee</h5>
+                                      <p class="text-white card-text">
+                                            Strong espresso shot to kick start your day.
+                                      </p>
+                                      <p class="card-text">
+                                        <small class=" fw-bold text-white fs-5">$2.5</small>
+                                        <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></ion-icon></a></span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="card mb-3 bg-dark" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="/static/cappuccino.jpg" alt="cappuccino" class="img-fluid rounded-circle my-3 border border-warning border-3 border-opacity-50"/>
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title fw-bold text-white fs-4">Cappuccino Coffee</h5>
+                                      <p class="card-text text-white">
+                                        With milk foam.
+                                      </p>
+                                      <p class="card-text">
+                                        <small class="text-white fw-bold fs-5">$3.0</small>
+                                        <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></ion-icon></a></span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class=" btn btn-outline-warning rounded-circle carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon btn btn-outline-warning rounded-circle " aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+        </div>
+    </div>
     
-   <div class="container bg-transparent ">
-        <nav class="navbar navbar-expand-xl justify-content-between bg-transparent"> 
-                <a class="navbar-brand" href="">
-                    <img src="logo.png" width="100px" alt="logo">
-                </a>
-            <div class="container-fluid">
-            <ul class="navbar-nav mx-auto ">
-                <li class="nav-item">
-                    <a class="nav-link active text-white" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Apps</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
-                </li>
-            </ul>
-            </div>
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <span class="container-fluid">
-                    <a  type="button" href="#" class="btn btn-outline-warning me-3 btn-sm">Log in</a>
-                    </span>
-                </li>
-                <li class="nav-item">
-                    <span class="container-fluid">
-                        <a  type="button" href="#" class="btn btn-outline-warning active text-black me-5 btn-sm">Sign up</a>
-                    </span>
-                </li>
-            </ul>
-        </nav>
-    </div>
-
-    <section class="hero my-5">
-        <div class="container-lg">
-            <div class="row justify-content-center align-items-center d-flex">
-                <div class="co-md-3 text-center text-md-start">
-                    <h1>
-                        <div class="display-2 text-white fw-bold">Start your day</div>
-                        <div class="display-3 text-white fw-bold">with a black coffee</div>
-                    </h1>
-                    <p class="lead display-7 my-4 text-white">choose and taste delicious coffee from <br> the best beans</p>
-                    <a href="#" class="btn btn-outline-warning active me-5 text-black btn-lg">Order now</a>
-                    <a href="#" class="btn btn-outline-warning me-3 text-white btn-lg">Learn About Us</a>
-                </div>
-                <div class="co-md-9 text-center ">
-                    <img class="img-fluid rounded float-end" src="/static/bgc.jpg" alt="bg cover">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="container">
-                <div class="carousel-item active">
-                    <img class="img-fluid" src="/static/americano.jpg" class="d-block w-100" alt="americano">
-                </div>
-            </div>
-            <div class="container">
-                <div class="carousel-item">
-                    <img src="/static/cappuccino.jpg" class="d-block w-100" alt="cappuccino">
-                </div>
-            </div>
-            <div class="container">
-                <div class="carousel-item">
-                    <img src="/static/espresso.jpg" class="d-block w-100" alt="espresso">
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
 </body>
 </html>

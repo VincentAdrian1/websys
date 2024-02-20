@@ -1,4 +1,8 @@
-.bgcover{
-    width: 650px;
-    float: left;
+.bg-image{
+    background-image: url('./static/bgc.jpg');
+    background-repeat: no-repeat;
+    background-position: 50rem;
+    background-size: 50rem;
+    padding-bottom: 30px;
+    
 }

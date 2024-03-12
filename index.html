@@ -15,12 +15,12 @@
         <div class="container bg-transparent ">
             <nav class="navbar navbar-expand-xl justify-content-between bg-transparent"> 
                     <a class="navbar-brand" href="">
-                        <img src="logo.png" width="100px" alt="logo">
+                        <img src="static/logo.png" width="100px" alt="logo">
                     </a>
                 <div class="container-fluid">
-                <ul class="navbar-nav mx-auto ">
+                <ul class="nav nav-underline mx-auto ">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" href="#">Home</a>
+                        <a class="nav-link text-white" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">About</a>
@@ -34,17 +34,17 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Contact</a>
                     </li>
-                </ul>
+                </ul> 
                 </div>
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <span class="container-fluid">
-                        <a  type="button" href="#" class="btn btn-outline-warning me-3 btn-sm">Log in</a>
+                        <a  type="button" href="#" class="btn btn-outline-warning btn-sm">Log in</a>
                         </span>
                     </li>
                     <li class="nav-item">
                         <span class="container-fluid">
-                            <a  type="button" href="#" class="btn btn-outline-warning active text-black me-5 btn-sm">Sign up</a>
+                            <a  type="button" href="#" class="btn btn-outline-warning btn-sm">Sign up</a>
                         </span>
                     </li>
                 </ul>
@@ -59,8 +59,8 @@
                             <div class="display-2 text-white fw-bold">Start your day</div>
                             <div class="display-3 text-white fw-bold">with a black coffee</div>
                         </h1>
-                        <p class="lead display-7 my-4 text-white">choose and taste delicious coffee from <br> the best beans</p>
-                        <a href="#" class="btn btn-outline-warning active me-5 text-black btn-lg">Order now</a>
+                        <p class="lead display-7 my-4 text-white-50">choose and taste delicious coffee from <br> the best beans</p>
+                        <a href="#" class="btn btn-outline-warning me-5 text-white btn-lg">Order now</a>
                         <a href="#" class="btn btn-outline-warning me-3 text-white btn-lg">Learn About Us</a>
                     </div>
                 </div>
@@ -68,88 +68,132 @@
         </section>
     </div>
 
-    <div class="container border rounded border-warning my-5 w-50">       
-            <h1 class="text-center display-5 text-white fw-bold ">Popular Now</h1>
-        <div id="carouselExample" class="carousel slide container my-5 " data-bs-slide="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                            <div class="row justify-content-center">
-                                <div class="card mb-3 bg-dark" style="max-width: 540px; min-height: 150px;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4">
-                                        <img src="/static/bgcc.jpg" alt="Americano" class="img-fluid rounded-circle my-3 border border-warning border-3 border-opacity-50"/>
-                                      </div>
-                                      <div class="col-md-8">
+    <div class="container border rounded border-warning my-5 ">       
+            <h1 class="text-center display-5 text-white fw-bold pb-5">Popular Now</h1>
+           <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner pb-3">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center">
+                        <!-- card 1 -->
+                        <div class="col-md-3">
+                            <div class="card mb-3 bg-dark" style="max-width: 300px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="static/americano.jpg" class="img-fluid rounded-start" alt="..." style="width: 120px; height: 120px;">
+                                    </div>
+                                    <div class="col-md-8">
                                         <div class="card-body">
-                                          <h5 class="card-title fw-bold text-white fs-4">Americano Coffee</h5>
-                                          <p class="card-text text-white">
-                                            Fresh roasted coffee beans.
-                                          </p>
-                                          <p class="card-text"><small class="text-white fw-bold fs-5">$2.25</small></p>
-                                          <span><a href="1.html" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></a></span>
+                                            <h5 class="card-title text-white">Americano</h5>
+                                            <p class="card-text text-white-50">₱100.00</p>
+                                            <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></a></span>
                                         </div>
-                                      </div>
                                     </div>
-                                  </div>
-                            </div>  
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row justify-content-center">
-                            <div class="card mb-3 bg-dark" style="max-width: 540px;">
-                                <div class="row g-0">
-                                  <div class="col-md-4">
-                                    <img src="/static/espresso.jpg" alt="espresso" class="img-fluid rounded-circle my-3 border border-warning border-3  border-opacity-50"/>
-                                  </div>
-                                  <div class="col-md-8">
-                                    <div class="card-body">
-                                      <h5 class="card-title fw-bold text-white fs-4">Espresso Coffee</h5>
-                                      <p class="text-white card-text">
-                                            Strong espresso shot to kick start your day.
-                                      </p>
-                                      <p class="card-text">
-                                        <small class=" fw-bold text-white fs-5">$2.5</small>
-                                        <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></ion-icon></a></span>
-                                      </p>
-                                    </div>
-                                  </div>
                                 </div>
-                              </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row justify-content-center">
-                            <div class="card mb-3 bg-dark" style="max-width: 540px;">
+                        <!-- card 2 -->
+                        <div class="col-md-3">
+                            <div class="card mb-3 bg-dark" style="max-width: 300px;">
                                 <div class="row g-0">
-                                  <div class="col-md-4">
-                                    <img src="/static/cappuccino.jpg" alt="cappuccino" class="img-fluid rounded-circle my-3 border border-warning border-3 border-opacity-50"/>
-                                  </div>
-                                  <div class="col-md-8">
-                                    <div class="card-body">
-                                      <h5 class="card-title fw-bold text-white fs-4">Cappuccino Coffee</h5>
-                                      <p class="card-text text-white">
-                                        With milk foam.
-                                      </p>
-                                      <p class="card-text">
-                                        <small class="text-white fw-bold fs-5">$3.0</small>
-                                        <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></ion-icon></a></span>
-                                      </p>
+                                    <div class="col-md-4">
+                                        <img src="static/latte.jpg" class="img-fluid rounded-start" alt="..." style="width: 120px; height: 120px;">
                                     </div>
-                                  </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-white">Latte</h5>
+                                            <p class="card-text text-white-50">₱225.00</p>
+                                            <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></a></span>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="col-md-3">
+                            <div class="card mb-3 bg-dark" style="max-width: 300px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="static/espresso.jpg" class="img-fluid rounded-start" alt="..." style="width: 120px; height: 120px;">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-white">Esspresso</h5>
+                                            <p class="card-text text-white-50">₱200.00</p>
+                                            <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                        <span class=" btn btn-outline-warning rounded-circle carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                        <span class="carousel-control-next-icon btn btn-outline-warning rounded-circle " aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <!-- card 1 -->
+                        <div class="col-md-3">
+                            <div class="card mb-3 bg-dark" style="max-width: 300px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="static/iced.jpg" class="img-fluid rounded-start" alt="..." style="width: 120px; height: 120px;">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-white">Iced Coffee</h5>
+                                            <p class="card-text text-white-50">₱105.00</p>
+                                            <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="col-md-3">
+                            <div class="card mb-3 bg-dark" style="max-width: 300px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="static/cappuccino.jpg" class="img-fluid rounded-start" alt="..." style="width: 120px; height: 120px;">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-white">Cappuccino</h5>
+                                            <p class="card-text text-white-50">₱230.00</p>
+                                            <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="col-md-3">
+                            <div class="card mb-3 bg-dark" style="max-width: 300px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="static/frappuccino.jpg" class="img-fluid rounded-start" alt="..." style="width: 120px; height: 120px;">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-white">Frappuccino</h5>
+                                            <p class="card-text text-white-50">₱50.00</p>
+                                            <span><a href="#" class="btn btn-outline-warning active text-dark rounded-circle position-absolute bottom-0 end-0 me-5 mb-3"><i class="bi bi-plus-circle-fill"></i></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
+   </div>
     
 </body>
 </html>
